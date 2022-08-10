@@ -1,0 +1,314 @@
+/*comentario en css*/
+
+/* estilo de body*/
+
+/*reset*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*grids*/
+
+.grid-nosotros{
+    display: grid;
+    height: 50vh;
+    grid-template-columns: auto;
+    grid-template-rows: 8fr 8fr 8fr 8fr ;
+
+    grid-template-areas: "aboutUs aboutUs aboutUs aboutUs"
+                         "parrafoQuienes parrafoQuienes parrafoQuienes parrafoQuienes"
+                         "fotoJuan fotoJuan fotoJuan fotoJuan" 
+                         "footer footer footer footer"
+    
+    ;
+
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+footer{
+    grid-area: footer;
+    
+}
+
+.grids{
+    height: 80px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2,5fr 2fr;
+    grid-template-rows: 30% 50% 20%;
+    gap: 10px;
+    justify-items: center;
+    
+}
+
+body{
+    background-image: url(../img/fondo-court.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* estilos de header*/
+
+.aboutUs{
+    text-align: center;
+    background-color: orange;
+    margin: 50px;
+    grid-area: aboutUs;
+    
+}
+
+
+.suscribe{
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: bold;
+    color: rgb(77, 40, 14);
+    text-shadow: 1px 1px oldlace
+}
+
+
+.titleJugadores{
+    background-color: rgb(187, 199, 133);
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+header div{
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    }
+    
+    
+
+header nav ul{
+    list-style: none;
+    text-align: left;
+    display: flex;
+    column-gap: 1fr;
+}
+
+header nav ul li{
+    font-size: 15px;
+    font-style: italic;
+    background-color: rgb(238, 186, 108);
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+main h1{
+    text-align: center;
+    color: rgb(26, 20, 20);
+    text-shadow: 2px 2px blanchedalmond;
+    font-size: 35px;
+}
+
+main p{
+    text-align: center;
+    font-size: 20px;
+}
+
+/* estilo de footer*/
+
+.etiquetah2{
+    text-align: center;
+    font-style: italic;
+    margin-top: 300px;
+    background-color: black;
+    color: aliceblue;
+    
+
+}
+
+
+
+body table tbody tr td{
+    
+    font-weight: bold;
+    border-width: 3px;
+    border-color: black;
+}
+
+
+
+/*estilos de header*/
+
+.traspasos{
+    
+    font-size: 50px;
+    text-shadow: 3px 3px crimson;
+    color: beige;
+    
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+.menu-movil{
+    position: sticky;
+    top: 0px;
+    
+
+}
+
+.video{
+    margin-top: 150px;
+}
+
+header nav ul li{
+    display: inline-block;
+    background-color: chocolate;
+    font-size: 25px;
+    padding: 10px;
+    box-shadow: 2px 2px rgb(8, 8, 8);
+    margin-bottom: 50px;
+    position: relative;
+    right: 200px;
+}
+
+/*estilos de main*/
+
+.fotoJuan{
+    display: flex;
+    height: 50%;
+    width: 50%;
+    display: none;
+    margin-left: 100px;
+    justify-self: center;
+    grid-area: fotoJuan;
+}
+
+.parrafoQuienes{
+    grid-area: parrafoQuienes;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+
+.nombreJugador1{
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.nombreJugador2{
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 100px;
+    text-decoration: underline;
+}
+
+.nombreJugador3{
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 100px;
+    text-decoration: underline;
+
+}
+
+.nombreJugador4{
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 100px;
+    text-decoration: underline;
+}
+
+.nombreJugador5{
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 100px;
+    text-decoration: underline;
+}
+
+
+.parrafo{
+    font-size: 20px;
+    font-weight: bold;
+    text-overflow: inherit;
+    text-shadow: 1px 1px antiquewhite;
+}
+
+
+
+.logoLebron{
+    margin-bottom: 200px;
+    margin-left: 200px;
+    height: 100px;
+    width: 200px;
+}
+
+
+.nikolaJokic{
+    width: 600px;
+    height: 450px;
+    display: block;
+    margin: auto;
+}
+
+.joelEmbiid{
+    width: 600px;
+    height: 450px;
+    display: block;
+    margin: auto;
+    }
+
+.giannisAnte{
+        width: 600px;
+        height: 450px;
+        display: block;
+        margin: auto;
+    }
+
+.demarDerozan{
+        width: 600px;
+        height: 450px;
+        display: block;
+        margin: auto;
+    }
+
+.lebronJames{
+        width: 600px;
+        height: 450px;
+        display: block;
+        margin: auto;
+    }
+
+/* logo wpp */
+
+.item-wpp{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+
+/*mediaqueris*/
+
+@media screen and (min-widht:600px) {
+    .grid-nosotros{
+        grid-template-columns: auto;
+        grid-template-areas: "aboutUs aboutUs aboutUs aboutUs"
+                         "parrafoQuienes parrafoQuienes parrafoQuienes parrafoQuienes"
+                         "fotoJuan fotoJuan fotoJuan fotoJuan" 
+                         "footer footer footer footer";
+        column-gap: 1rem;
+    }
+}
+
+
+
