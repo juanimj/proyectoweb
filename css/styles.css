@@ -12,6 +12,26 @@
 
 /*grids*/
 
+.air{
+    width: 50%;
+    animation-name: air;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes air{
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1);
+    }
+}
+
 .grid-nosotros{
     display: grid;
     height: 50vh;
